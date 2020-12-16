@@ -15,6 +15,7 @@ Practice/
 *.pch
 
 # Compiled Dynamic libraries
+main
 *.so
 *.dylib
 *.dll
