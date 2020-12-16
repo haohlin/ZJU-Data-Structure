@@ -2,8 +2,8 @@
 //  main.cpp
 //  7-1_harrypotter
 //
-//  Created by 林昊晗 on 5/3/20.
-//  Copyright © 2020 林昊晗. All rights reserved.
+//  Created by Haohan Lin on 5/3/20.
+//  Copyright © 2020 Haohan Lin. All rights reserved.
 //
 
 #include <iostream>

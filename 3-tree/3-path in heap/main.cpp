@@ -2,8 +2,8 @@
 //  main.cpp
 //  5-1_堆中的路径
 //
-//  Created by 林昊晗 on 4/26/20.
-//  Copyright © 2020 林昊晗. All rights reserved.
+//  Created by Haohan Lin on 4/26/20.
+//  Copyright © 2020 Haohan Lin. All rights reserved.
 //
 
 #include <iostream>

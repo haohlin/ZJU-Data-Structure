@@ -2,8 +2,8 @@
 //  main.cpp
 //  6-1_列出连通集
 //
-//  Created by 林昊晗 on 5/2/20.
-//  Copyright © 2020 林昊晗. All rights reserved.
+//  Created by Haohan Lin on 5/2/20.
+//  Copyright © 2020 Haohan Lin. All rights reserved.
 //
 
 #include <iostream>

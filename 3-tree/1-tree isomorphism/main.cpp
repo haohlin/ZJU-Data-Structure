@@ -2,8 +2,8 @@
 //  main.cpp
 //  3-1
 //
-//  Created by 林昊晗 on 10/28/19.
-//  Copyright © 2019 林昊晗. All rights reserved.
+//  Created by Haohan Lin on 10/28/19.
+//  Copyright © 2019 Haohan Lin. All rights reserved.
 //
 
 #include <iostream>
@@ -48,7 +48,7 @@ Tree BuildTree(struct TreeNode T[]){
         T[i].Right = Right-'0';
         if (T[i].Left) check[T[i].Left] = 1;
         if (T[i].Right) check[T[i].Right] = 1;
-}
+    }
     for (int i = 0;i<N;i++){
         if (!check[i]) root = i;
     }
@@ -62,7 +62,7 @@ int IsOmorphic(Tree R1, Tree R2){
     else if ((T1[R1].Left==Null) && (T2[R2].Left==Null))
         return IsOmorphic(T1[R1].Right, T2[R2].Right);
     else if ((T1[R1].Left!=Null) && (T2[R2].Left!=Null) && (T1[T1[R1].Left].Data==T2[T2[R2].Left].Data))
-        return (IsOmorphic(T1[R1].Right, T2[R2].Right) && IsOmorphic(T1[R1].Right, T2[R2].Right));
-    else return (IsOmorphic(T1[R1].Left, T2[R2].Right) && IsOmorphic(T1[R1].Left, T2[R2].Right));
+        return (IsOmorphic(T1[R1].Left, T2[R2].Left) && IsOmorphic(T1[R1].Right, T2[R2].Right));
+    else return (IsOmorphic(T1[R1].Left, T2[R2].Right) && IsOmorphic(T1[R1].Right, T2[R2].Left));
 }
 

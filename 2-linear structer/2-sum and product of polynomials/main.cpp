@@ -2,8 +2,8 @@
 //  main.cpp
 //  2-2
 //
-//  Created by 林昊晗 on 10/26/19.
-//  Copyright © 2019 林昊晗. All rights reserved.
+//  Created by Haohan Lin on 10/26/19.
+//  Copyright © 2019 Haohan Lin. All rights reserved.
 //
 
 #include <iostream>
